@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Button } from './ui/button';
 
 export const Navbar = () => {
@@ -17,11 +18,13 @@ export const Navbar = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-600 to-secondary-500 flex items-center justify-center text-white shadow-lg">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+              <Image 
+                src="/logo.jpeg" 
+                alt="Himalayan Neo Tech Logo" 
+                width={40}
+                height={40}
+                className="w-10 h-10 rounded-lg shadow-lg object-cover"
+              />
               <span className="font-bold text-xl tracking-tight text-slate-900 dark:text-white">
                 Himalaya Neo Tech
               </span>

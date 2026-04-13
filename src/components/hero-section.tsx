@@ -15,7 +15,7 @@ export const HeroSection = () => {
           <div className="lg:col-span-6 text-center lg:text-left z-10">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 text-sm font-semibold mb-6 border border-primary-100 dark:border-primary-800/50">
               <span className="flex h-2 w-2 rounded-full bg-primary-600 animate-pulse"></span>
-              Nepal's #1 Accounting Software
+              Nepal's most simplest Accounting Software
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
               Smart Accounting & ERP Software for Modern Businesses
@@ -39,11 +39,11 @@ export const HeroSection = () => {
             </div>
             
             <div className="mt-10 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500 font-medium">
-              <div className="flex -space-x-2">
+              {/* <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-8 h-8 rounded-full border-2 border-white bg-slate-200 dark:border-slate-900 dark:bg-slate-700"></div>
                 ))}
-              </div>
+              </div> */}
               <p>Trusted by 500+ businesses</p>
             </div>
           </div>
