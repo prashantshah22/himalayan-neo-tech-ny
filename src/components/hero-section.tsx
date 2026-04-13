@@ -15,7 +15,7 @@ export const HeroSection = () => {
           <div className="lg:col-span-6 text-center lg:text-left z-10">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 text-sm font-semibold mb-6 border border-primary-100 dark:border-primary-800/50">
               {/* <span className="flex h-2 w-2 rounded-full bg-primary-600 animate-pulse"></span> */}
-              Nepal's most simplest Accounting Software
+              Nepal&apos;s most simplest Accounting Software
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
               Smart Accounting & ERP Software for Modern Businesses
