@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const Footer = () => {
   return (
@@ -7,9 +8,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded shrink-0 bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-white">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-              </div>
+              <Image 
+                src="/logo.jpeg" 
+                alt="Himalayan Neo Tech Logo" 
+                width={32}
+                height={32}
+                className="w-8 h-8 rounded shrink-0 object-cover"
+              />
               <span className="font-bold text-lg text-white">Himalaya Neo Tech Nepal</span>
             </div>
             <p className="text-slate-400 max-w-sm mb-6">
